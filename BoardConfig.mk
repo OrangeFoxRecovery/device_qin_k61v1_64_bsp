@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/fleur
+DEVICE_PATH := device/qin/k61v1_64_bsp
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -70,7 +70,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 # Platform
-TARGET_BOARD_PLATFORM := mt6781
+TARGET_BOARD_PLATFORM := mt6761
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true

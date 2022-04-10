@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),fleur)
+ifeq ($(TARGET_DEVICE),k61v1_64_bsp)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

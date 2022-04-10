@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit from fleur device
-$(call inherit-product, device/xiaomi/fleur/device.mk)
+# Inherit from k61v1_64_bsp device
+$(call inherit-product, device/qin/k61v1_64_bsp/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := fleur
-PRODUCT_NAME := twrp_fleur
+PRODUCT_DEVICE := k61v1_64_bsp
+PRODUCT_NAME := twrp_k61v1_64_bsp
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11S
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MANUFACTURER := qin

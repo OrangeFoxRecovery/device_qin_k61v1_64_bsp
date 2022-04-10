@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/fleur
+LOCAL_PATH := device/qin/k61v1_64_bsp
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -46,7 +46,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl.recovery \
     android.hardware.boot@1.1-impl \
-    bootctrl.mt6781.recovery
+    bootctrl.mt6761.recovery
 
 # Update Engine
 PRODUCT_PACKAGES += \

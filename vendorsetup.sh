@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FDEVICE="fleur"
+FDEVICE="k61v1_64_bsp"
 #set -o xtrace
 
 fox_get_target_device() {
